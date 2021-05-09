@@ -1,4 +1,4 @@
-# [Main] HTML Basic
+# HTML Basic
 HTML의 모든 내용을 담고있지는 않으며, 복습한 내용들만 간단히 작성하였다.
 
 ## 1. DOM

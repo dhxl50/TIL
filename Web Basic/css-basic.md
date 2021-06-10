@@ -1,5 +1,5 @@
 # CSS Basic
-CSS에 관한 공부 내용을 간단히 정리하였다.
+CSS에 관한 공부 내용을 간단히 정리하였다.(정리 + Cheat Sheet)
 
 ## Prseudo class selector : 가상 클래스 선택자
 element들의 상태에 따라 가변적으로 선택이 가능한 선택자
@@ -16,6 +16,17 @@ element들의 상태에 따라 가변적으로 선택이 가능한 선택자
 - style attribute > id selector > class selector > tag selector > browser
 
 구체적이고 명시적일수록 우선순위가 높고, 포괄적일 수록 우선순위가 낮다.
-그러나, **!important;** 를 입력해주면 강제적으로 우선순위를 높일 수 있다.
+> `!important;` 를 입력해주면 강제적으로 우선순위를 높일 수 있다.
 
 ## Inline vs Block
+- Inline : 화면 일부(자기자신) 영역만을 차지한다.
+- Block level : 화면 전체를 사용한다.
+
+> `display` 속성을 이용해 원하는 대로 변경할 수 있다.
+
+## Box model
+Contents의 부피감(width, heigth)과 거리감(padding, margin)을 결정한다.
+
+> **Inline element**에는 width와 height를 적용할 수 없다.
+
+> `box-sizing:border-box;` 옵션을 이용하면 크기조절이 좀 더 수월하다.

@@ -11,7 +11,7 @@ Javascript와 같은 프로그래밍 언어를 이용하면, DOM 객체에 접�
 
 **Element**는 시작태그 + 내용(content) + 끝태그를 모두 합친 것을 의미한다.
 
-또한, *<br/>*과 같은 빈 요소도 Element이다.
+또한, *`<br/>`*과 같은 빈 요소도 Element이다.
 
 ## 3. Block and Inline element
 Element에는 **블록(block)** 타입 요소와 **인라인(inline)** 타입 요소가 있다.
